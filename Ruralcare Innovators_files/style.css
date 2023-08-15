@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruralcare Innovators</title>
+  <link rel="stylesheet" href="style.css">
+<script defer src="/static/js/bundle.js"></script></head>
+<body>
+  <div class="contactus">
+    <div class="title">
+      <h2> Get in touch </h2>
+    </div>
+    <div class="box">
+      <div class="contact form">
+         <h3>Send a Message</h3>
+         <form>
+           <div class="formBox">
+             <div class="row50">
+               <div class="inputBox">
+                 <span>First Name</span>
+                 <input type="text" placeholder="First Name">
+               </div>
+               <div class="inputBox">
+                <span>Last Name</span>
+                <input type="text" placeholder="Last name">
+              </div>
+             </div>
+             <div class="row50">
+               <div class="inputBox">
+                <span>Email</span>
+                <input type="text" placeholder="Enter Email ID">
+               </div>
+               <div class="inputBox">
+                <span>Mobile</span>
+                <input type="text" placeholder="Mobile no.">
+              </div>
+             </div>
+             <div class="row100">
+              <div class="inputBox">
+                <span>Message</span>
+                <textarea type="text" placeholder="Write your message here..."></textarea>
+              </div>
+           </div>
+           <div class="row100">
+            <div class="inputBox">
+              <input type="submit" value="Send">
+            </div>
+           </div>
+          </div>
+         </form>
+      </div>
+      <!-- info Box -->
+      <div class="contact info">
+        <h3>Contact Info</h3>
+        <div class="infoBox">
+          <div>
+            <span><ion-icon name="location"></ion-icon></span>
+            <p>Oomatchikulam, Madurai <br>India-625014</p>
+          </div>
+          <div>
+            <SPan><ion-icon name="mail"></ion-icon></SPan>
+            <a href="mailto:ceo@ruralcareinnovators.com">ceo@ruralcareinnovators.com</a>
+      </div>
+        <div>
+          <span><ion-icon name="call"></ion-icon></span>
+          <a href="tel:+919865936932">+91 986 593 6932</a>
+        </div>
+        <!--social media links-->
+        <u1 class="sci">
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="link-outline"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </u1>
+      </div>
+    </div>
+      <!-- map -->
+      <div class="contact map"></div>
+    </div>  
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
